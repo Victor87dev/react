@@ -7,6 +7,7 @@ export default function App(){
   <p>CFB cursos</p>
   <br/>
   <p>Curso de react</p>
+  <p>app</p>
   </>
   )
 }
