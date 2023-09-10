@@ -2,18 +2,23 @@ import React from 'react';
 import Dados from './Dados'
 
 export default function Corpo(){
-    const cnl = ' CFB Cursos'
-    const yt = ' Animes Demon Slayer'
-    const crs = ' One'
+    const cnl =()=>{
+        return(' One Punch Man')
+    }
+    const yt = ' 44'
+    const crs = ' 2017'
+    const somar = (v1,v2)=>{
+        return v1+v2
+    }
 
     return(
         <section>
             <img src="./public/img/saitama.png"/>
-            <h2>Demon slayer</h2>
             <Dados 
                 canal={cnl}
                 youtube={yt}
                 curso={crs}
+                somar={somar}
             />
         </section>  
     )
