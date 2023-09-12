@@ -1,5 +1,6 @@
 import React from 'react';
 import Dados from './Dados'
+import './m.css'
 
 export default function Corpo(){
     const cnl =()=>{
@@ -20,6 +21,7 @@ export default function Corpo(){
                 curso={crs}
                 somar={somar}
             />
+            <p className='texto1'>serazi</p>
         </section>  
     )
 
